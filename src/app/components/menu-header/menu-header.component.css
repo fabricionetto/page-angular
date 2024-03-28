@@ -1,0 +1,51 @@
+.fixed-header{
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0 0 12px rgba(0,0,0,.06);
+    border-bottom: 1px solid #dfe0e7;
+}
+.container-menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    text-align: center;
+}
+
+.container-menu .logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu .list-links{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px;
+    border-right: 1px solid #dfe0e7;
+}
+
+.container-menu .itens-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-menu .register{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .itens-register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
