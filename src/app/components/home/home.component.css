@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 22% 78%;
+    grid-template-areas:   
+    "b2 b1 b1"
+    "b2 b3 b3"
+    "b2 b3 b3";
+}
+
+.filter-house{
+    grid-area: b1;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.filter-house > input{
+    height: 3rem;
+    width: 50rem;
+    background-color: #fff;
+    background-image: url('/assets/icon-search.png');
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: left 10px center;
+    z-index: 4;
+    padding-left: 3rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+.container-scroll-left{
+    grid-area: b2;
+    width: 22%;
+    left: 0;
+    bottom: 0;
+    float: left;
+    position: fixed;
+    box-shadow: 3px 10px 3px 0 rgba(0,0,0,.02);
+    top: 4rem;
+    z-index: 3;
+    transition: left .5s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: #000;
+}

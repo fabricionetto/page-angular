@@ -1,0 +1,252 @@
+
+.conteiner-scroll{
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.navbar-table{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 1.5rem;
+     font-size: 1.5rem;
+     align-items: stretch;
+     flex-wrap: wrap;
+     color: #000;
+     padding: 0 1rem 1rem 1rem;
+}
+
+.container-scroll-left .container-navbar-content{
+    width: 100%;
+    max-height: 940px;
+    color: #4d4c59;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-navbar-content > form{
+    width: 100%;
+}
+
+.content-location{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    color: #4d4c59;
+    font-size: 1rem;
+    border-bottom: 1px solid #dfe0e7;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.content-location > input{
+    padding-left: 1rem;
+    height: 2.5rem;
+    border: 2px solid #ecedf2;
+    font-size: 14px;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    color: #aeaeba;
+    position: relative;
+    background-position: 97%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url('/assets/sinal-de-localizacao.png');
+    background-size: 1.5rem;
+}
+
+.content-location > h4{
+   padding-bottom: 0.5rem; 
+}
+
+.container-filter-ofertas{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    color: #4d4c59;
+    font-size: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #dfe0e7;
+}
+
+.container-filter-ofertas .menu-ofertas .CheckBox{
+ display: flex;
+ flex-direction: row;
+ gap: 6px;
+}
+
+.conatiner-icons-marca{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #4d4c59;
+    font-size: 1rem;
+    gap: 1rem;
+   border-bottom: 1px solid #dfe0e7;
+}
+
+.conatiner-icons-marca .itens-icons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.itens-icons #card{
+  width: 80px;
+  height: 80px;
+  padding: 8px 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 1rem;
+  box-shadow: 0 4px 8px -4px rgba(0,0,0,.3);
+  display: inline;
+  align-items: stretch;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.itens-icons .cards1{
+    background-image: url('/assets/cons1.png');
+}
+
+.itens-icons .cards2{
+    background-image: url('/assets/cons2.png');
+}
+
+.itens-icons .cards3{
+    background-image: url('/assets/cons3.png');
+}
+
+.itens-icons .cards4{
+    background-image: url('/assets/cons4.png');
+}
+
+.itens-icons .cards5{
+    background-image: url('/assets/cons5.png');
+}
+
+.itens-icons .cards6{
+    background-image: url('/assets/cons6.jpg');
+}
+
+.conteiner-habitacao{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.conteiner-habitacao .itens-container-habitacao{
+    width: 100%;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+    justify-content: center;
+    border-bottom: 1px solid #dfe0e7;
+}
+
+.conteiner-habitacao ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    gap: 3rem;
+}
+
+.conteiner-habitacao ul .CheckBox{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.conteiner-preco{
+    width: 100%;
+    height: 210px;
+    font-size: 1rem;
+}
+
+.conteiner-caracteristica .itens-container-preco {
+    width: 100%;
+    height: 7rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+    justify-content: center;
+}
+
+.itens-container-preco ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    gap: 3rem;
+}
+
+.itens-container-preco > h4{
+    padding: 0.75rem 0 1rem 1rem;
+}
+
+.itens-container-preco .botao-caract{ 
+    padding-left: 1rem;
+    height: 2.2rem;
+    width: 7rem;
+    border: 2px solid #ecedf2;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #aeaeba;
+    position: relative;
+    background-position: 97%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+.clear-button{
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dfe0e7;
+    padding: 1rem 0 1rem 0;
+}
+
+.clear-button > button{
+    border: 1px solid #686976;
+    height: 2.5rem;
+    flex-grow: 1;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #686976;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
