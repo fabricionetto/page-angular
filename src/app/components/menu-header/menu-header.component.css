@@ -11,7 +11,7 @@
     justify-content: space-between;
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255/var(--tw-bg-opacity));
-    text-align: center;
+    align-items: center;
 }
 
 .container-menu .logo{
@@ -47,5 +47,5 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
