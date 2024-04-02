@@ -100,6 +100,9 @@ align-items: center;
 flex-wrap: wrap;
 }
 
+.conatiner-icons-marca > h4{
+    padding-left: 1rem;
+}
 .itens-icons #card{
   width: 80px;
   height: 80px;
@@ -110,35 +113,12 @@ flex-wrap: wrap;
   background-size: 100%;
   margin: 1rem;
   box-shadow: 0 4px 8px -4px rgba(0,0,0,.3);
-  display: inline;
+  display: flex;
+  justify-content: center;
   align-items: stretch;
   position: relative;
   overflow: hidden;
   vertical-align: top;
-}
-
-.itens-icons .cards1{
-    background-image: url('/assets/cons1.png');
-}
-
-.itens-icons .cards2{
-    background-image: url('/assets/cons2.png');
-}
-
-.itens-icons .cards3{
-    background-image: url('/assets/cons3.png');
-}
-
-.itens-icons .cards4{
-    background-image: url('/assets/cons4.png');
-}
-
-.itens-icons .cards5{
-    background-image: url('/assets/cons5.png');
-}
-
-.itens-icons .cards6{
-    background-image: url('/assets/cons6.jpg');
 }
 
 .conteiner-habitacao{

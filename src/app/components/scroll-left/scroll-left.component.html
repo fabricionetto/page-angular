@@ -20,13 +20,8 @@
              <div class="conatiner-icons-marca">
                 <h4>Construtoras</h4>
                    <ul class="itens-icons">
-                      <li id="card" class="cards1"></li>
-                      <li id="card" class="cards2"></li>
-                      <li id="card" class="cards3"></li>
-                      <li id="card" class="cards4"></li>
-                      <li id="card" class="cards5"></li>
-                      <li id="card" class="cards6"></li>
-                     </ul>
+                      <li id="card" *ngFor="let mm of imageScrollLeft"><img class="cards" [src]="mm.photo" alt=""></li>
+                   </ul>
              </div>
              <div class="conteiner-habitacao">
                 <div class="itens-container-habitacao">
