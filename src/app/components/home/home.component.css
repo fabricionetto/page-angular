@@ -1,18 +1,16 @@
 .container{
     width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 22% 78%;
-    grid-template-areas:   
-    "b2 b1 b1"
-    "b2 b3 b3"
-    "b2 b3 b3";
 }
 
 .filter-house{
-    grid-area: b1;
     height: 4rem;
     text-align: center;
     line-height: 4rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .filter-house > input{
@@ -21,16 +19,16 @@
     background-color: #fff;
     background-image: url('/assets/icon-search.png');
     background-repeat: no-repeat;
-    background-size: 2rem;
-    background-position: left 10px center;
+    background-size: 3rem;
+    background-position: left 0.5rem center;
     z-index: 4;
     padding-left: 3rem;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
     font-size: 1rem;
 }
 
 .container-scroll-left{
-    grid-area: b2;
     width: 22%;
     left: 0;
     bottom: 0;
@@ -42,5 +40,68 @@
     transition: left .5s;
     overflow-y: hidden;
     overflow-x: hidden;
-    color: #000;
+    color: #000;  
+  
+}
+
+.main-rigth{
+    background-color: #F3F5F8;
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(0,0,0,.06);
+    width: 100%;
+    padding: 70px 12px 0 344px;
+    overflow: hidden;
+    transition: padding .5s;
+    min-height: calc(100vh - 64px);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.main-rigth .container-cardVehicle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-cardVehicle .cards{
+   display: flex;
+   align-items: stretch;
+   width: 258px;
+   min-height: 430px;
+   padding: 8px;
+   overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+  background: white;
+  box-shadow: rgba(158, 184, 209, 0.41) 0px 2px 9px 0px;
+  border: medium;
+  position: relative;
+}
+
+.cards > img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards > h3{
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.cards > p{
+    padding: 0.3rem 0.75rem 0.75rem 0.75rem;
+}
+
+.cards > button{
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5rem;
 }

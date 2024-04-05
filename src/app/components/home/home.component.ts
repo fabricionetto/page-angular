@@ -1,7 +1,6 @@
 import { CommonModule, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { Headers } from '../../headers';
-import { Scroll } from '../../scroll';
 import { MenuHeaderComponent } from "../menu-header/menu-header.component";
 import { ScrollLeftComponent } from '../scroll-left/scroll-left.component';
 

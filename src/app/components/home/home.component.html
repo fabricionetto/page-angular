@@ -1,12 +1,29 @@
-<app-menu-header [interHeaders]="menuHeaders"></app-menu-header>
+
+  <app-menu-header [interHeaders]="menuHeaders"></app-menu-header>
 <main>
-    <div class="container">
-        <section class="filter-house">
-            <input type="text" placeholder="Compre sua casa">
-         </section>
-         <section class="container-scroll-left">
-           <app-scroll-left ></app-scroll-left>
-         </section>
-    </div>
+  <div class="container">
+    <section class="filter-house">
+      <input type="text" placeholder="Compre sua casa">
+   </section>
+   <section class="container-scroll-left">
+     <app-scroll-left ></app-scroll-left>
+   </section>
+   <section class="main-rigth">
+    <div class="container-cardVehicle">
+       <div class="cartao">
+          <a href="#">
+             <img src="/assets/casa-amarela.png" alt="">
+          </a>
+          <h3>Casa Amarela</h3>
+          <p>Rua: Silvio Luiz, St. Efigenia</p>
+          <p>R$ 134.000</p>
+          <button>Ver Parcelas</button>
+       </div>
+   </div>
+</section>
+  </div>
+       
 </main>
+
+
 
