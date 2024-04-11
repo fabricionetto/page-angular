@@ -1,2 +1,14 @@
-<app-home></app-home>
+
+<header class="fixed-header">
+        <app-menu-header [interHeaders]="menuHeaders"></app-menu-header>
+</header>
+<main class="container">
+       <section class="container-scroll-left">
+           <app-scroll-left></app-scroll-left>
+       </section>
+       <section class="container-main-rigth">
+          <app-home></app-home>
+       </section>
+</main>
+
 <router-outlet />
