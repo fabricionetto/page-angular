@@ -42,5 +42,31 @@ export class HomeComponent {
         "bairro": 'sta. Lucia',
         "preco": 9.995
     },
+    {
+        "id": 1,
+        "imagem": "assets/casa-amarela.png",
+        "nome": 'Casa Amarela',
+        "endereco": 'Rua: Castro Silva',
+        "bairro": 'sta. Ines',
+        "preco": 13.4779,
+    },
+
+    {
+        "id": 2,
+        "imagem": "assets/casa-azul.png",
+        "nome": 'Casa Azul',
+        "endereco": 'Av. Luiz Lemos',
+        "bairro": 'sta. Lucia',
+        "preco": 134.778,
+    },
+
+    {
+        "id": 3,
+        "imagem": "assets/casa-verde.png",
+        "nome": 'Casa Verde',
+        "endereco": 'Rua: Maria Conceição',
+        "bairro": 'sta. Lucia',
+        "preco": 9.995
+    },
 ]
 }

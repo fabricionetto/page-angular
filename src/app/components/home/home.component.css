@@ -4,7 +4,7 @@
     line-height: 4rem;
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: blanchedalmond;
+    background-color: #fff;
 }
 
 .filter-house > input{
@@ -19,12 +19,18 @@
     padding-left: 4rem;
     border-radius: 0.5rem;
     border: 1px solid black;
-    font-size: 1rem;
 }
 
 .main-rigth{
+    width: 70%;
+    font-size: 1rem;
+    color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 10PX;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: auto;
 }
