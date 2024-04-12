@@ -1,10 +1,12 @@
-<div class="card">
+<section class="card">
     <a href="#">
        <img class="house-photo" [src]="imgInterf.imagem" alt="">
     </a>
-    <h3 class="house-title">{{imgInterf.nome}}</h3>
-    <p class="house-addres">{{imgInterf.endereco}}, {{imgInterf.bairro}}</p>
-    <p class="house-price">R$ {{imgInterf.preco}}</p>
-    <button>Ver Parcelas</button>
- </div>
+    <div class="card-info">
+         <h3 class="house-title">{{imgInterf.nome}}</h3>
+         <p class="house-addres">{{imgInterf.endereco}}, {{imgInterf.bairro}}</p>
+         <p class="house-price">R$ {{imgInterf.preco}}</p>
+         <button class="btn-card">Ver Parcelas</button>
+    </div>
+ </section>
 

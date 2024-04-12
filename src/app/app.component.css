@@ -35,12 +35,12 @@
 .container-main-rigth{
     width: 100%;
     height: 100vh;
-    background-color: #347ae4;
     transform: scale(1);
     box-shadow: 0 0 12px rgba(0,0,0,.06);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: -1;
     grid-row-end: 2;
+    background-color: rgb(50, 172, 172);
 }
      
