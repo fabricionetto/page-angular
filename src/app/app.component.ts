@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { ScrollLeftComponent } from './components/scroll-left/scroll-left.component';
 import { MenuHeaderComponent } from './components/menu-header/menu-header.component';
+import { ScrollLeftComponent } from './components/scroll-left/scroll-left.component';
 import { Headers } from './headers';
 
 @Component({
@@ -18,7 +18,7 @@ export class AppComponent {
   menuHeaders: Headers=
        {
     "logo": "/assets/logo.png",
-    "login": "/assets/LOGIN.jpeg",
+    "login": "/assets/user-login-2.png",
     "cor": "/assets/CORACÃO.png",
     "msn": "/assets/msn.png",
     "comprar": "Comprar",
